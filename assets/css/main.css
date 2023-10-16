@@ -1,50 +1,26 @@
 
-header{
-	position :fixed;
-	top: 0;
-	right: 0;
-	z-index: 50;
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 50;
 }
+
 #wrapper {
     position: relative;
 }
 
 #navigation {
-    position:relative;
+    position: relative;
     left: -40px; /* Negative Wert in Pixeln, um es nach links zu verschieben */
     background: rgba(22, 203, 248, 0.7);
     color: white;
-    padding: 20px;
+    padding: 40px;
 }
 
 #clock-container {
-    position: relative;
+    position: fixed;
     top: 0;
-	header{
-		position :fixed;
-		top: 0;
-		right: 0;
-		z-index: 50;
-	}
-	#wrapper {
-		position: relative;
-	}
-	
-	#navigation {
-		position:relative
-		left: -40px; /* Negative Wert in Pixeln, um es nach links zu verschieben */
-		background: rgba(22, 203, 248, 0.7);
-		color: white;
-		padding: 20px;
-	}
-	
-	#clock-container {
-		position: fixed;
-		top: 0;
-		right: 0;
-		background: rgba(0, 0, 0, 0.7);
-		color: white;
-		padding: 10px;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
     color: white;
