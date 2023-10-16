@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>ValentinsGGGGGGG Seite</title>
+    <title>Valentins Seite</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -9,11 +9,15 @@
 </head>
 <body class="is-preload">
     <!-- Wrapper -->
+    <header>
+        <nav><a href="#second">navigation</a></nav>
+        <div id="clock-container"></div>
+    </header>
     <div id="wrapper" class="divided">
         <!-- One -->
         <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
             <div class="content">
-                <h1>Valentin Dobler1</h1>
+                <h1>Valentin Dobler</h1>
                 <p class="major">I am a business informatics student. First I introduce myself and then I will show here
 					my Portfolio and what Projects im doing.</p>
                 <ul class="actions stacked">
@@ -27,6 +31,7 @@
 
         <!-- Uhr einfügen -->
      <!-- JavaScript für die Uhr und das Datum -->
+
 <script>
     const clockElement = document.createElement('div');
     clockElement.id = 'clock';
@@ -37,14 +42,7 @@
     dateElement.id = 'date';
     dateElement.style.fontSize = '16px';
 
-    const clockContainer = document.createElement('div');
-    clockContainer.id = 'clock-container';
-    clockContainer.style.position = 'fixed';  // Ändern Sie die Position auf 'fixed'
-    clockContainer.style.top = '0';  // Setzen Sie top auf 0, um es am oberen Bildschirmrand zu fixieren
-    clockContainer.style.right = '0';
-    clockContainer.style.background = 'rgba(0, 0, 0, 0.7)';
-    clockContainer.style.color = 'white';
-    clockContainer.style.padding = '10px';
+    const clockContainer = document.getElementById("clock-container");
     clockContainer.appendChild(clockElement);
     clockContainer.appendChild(dateElement);
     document.body.appendChild(clockContainer);

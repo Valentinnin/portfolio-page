@@ -7,6 +7,25 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+header{
+	position :fixed;
+	top: 0;
+	right: 0;
+	z-index: 50;
+}
+
+#navigation {
+	
+}
+
+#clock-container {
+position : fixed;
+top : 0;
+right : 0;
+background : rgba(0, 0, 0, 0.7);
+color : white;
+padding : 10px;}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
