@@ -43,11 +43,25 @@ header {
     padding: 10px;
 }
 
-.image1{
-    display: block;
+img{
+    margin-left: 20px;
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
 }
 
 .intro-text{
-    display: flex;
     font-size: 20px;
+}
+
+.intro-wrapper{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.text-sec-2{
+}
+
+.image2{
+
 }
