@@ -10,25 +10,31 @@
 <body class="is-preload">
     <!-- Wrapper --> 
     <header>
-        <nav id="navigation"><a href="#second">navigation</a></nav>
+        <nav id="navigation">
+            <a href="#start">Start</a>
+            <a href="#intro-text">Introduction</a>
+            <a href="#section-two">Offer</a>
+        </nav>
         <div id="clock-container"></div>
+        <div>Hallo</div>
     </header>
     <div id="wrapper" class="divided">
         <!-- One -->
-        <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+        <section id="start" class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
             <div class="content">
                 <h1>Valentin Dobler</h1>
                 <p class="major">I am a business informatics student. First I'll introduce myself and then I will show you my Portfolio and what Projects im doing.</p>
-                <ul class="actions stacked">
-                    <li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
-                </ul>
+                
             </div>
-            <div class="intro-wrapper">
+            <div class="container-img1">
                 <img class="image1" src="Bild.jpg">
-                <div class="intro-text">
-                    <p>Hi, my name is Valentin and im 25 Years old <br>I'm currently living in Switzerland. <br> I like cats a lot. <br>I am married. <br>I startet to study in 2021 in bern <br>Currently im in my second year and next year i can start to work for 60% </p>
-                </div>
             </div>
+            <div id="intro-text">
+                <h2>Introduction</h2>
+                <p>Hi, my name is Valentin and im 25 Years old <br>I'm currently living in Switzerland. <br> I like cats a lot. <br>I am married. <br>I startet to study in 2021 in bern <br>Currently im in my second year and next year i can start to work for 60% <br>Heres a picture of my 2 beloved kittys </p>
+                <img id="catpic" src="Cat1.jpeg" alt="2 sleeping cats on a sofa">
+            </div>
+            
         </section>
 
         <!-- Uhr einfügen -->
@@ -68,8 +74,22 @@
     updateClock();
 </script>
 
+<div id="section-two"> <!--Musst noch sagen was du alles anbieten kannst-->
+    <h2 class="offer">This is what i have to offer</h2>
+    <div>
+        <ul>
+            <li>Personal Computer Support</li>
+            <li>Technical Home Support</li>
+            <li>Build a PC after your Imagination</li>
+        </ul>
+        <img src="Bild_Futuristic_Mechanic.jpg"/>
+    </div>
+</div>
 
-        <!-- Two -->
+
+
+
+        <!-- Two 
         <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
             <div class="intro-wrapper">
                 <div class="text-sec-2">
@@ -83,7 +103,7 @@
                     <img src="Bild_Futuristic_Mechanic.jpg"/>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-- Three -->
         <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="second">
