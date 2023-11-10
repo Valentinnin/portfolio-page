@@ -19,7 +19,7 @@ function getTimeInWords() {
     let output = "Es isch ";
 
     if (minute == 0) {
-        output += stunden[stunde] + " Uur";
+        output += stunden[stunde] + " ";
     } else if (minute <= 20) {
         output += minuten[minute] + " ab " + stunden[stunde];
     } else if (minute < 30) {
