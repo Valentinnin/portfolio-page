@@ -39,4 +39,4 @@ function getTimeInWords() {
 getTimeInWords();
 
 // Aktualisieren Sie die Uhrzeit jede Minute
-setInterval(getTimeInWords, 60000);
+setInterval(getTimeInWords, 600);

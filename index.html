@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/uhr.css">
     
 </head>
 <body class="is-preload">
@@ -15,8 +16,8 @@
             <a href="#intro-text">Introduction</a>
             <a href="#section-two">Offer</a>
         </nav>
-        <div id="clock-container"></div>
-        <div>Hallo</div>
+        <div id="Uhr"><h1 id="timeInWords"></h1>
+            <script src="uhr.js"></script></div>
     </header>
     <div id="wrapper" class="divided">
         <!-- One -->
@@ -39,40 +40,6 @@
 
         <!-- Uhr einfügen -->
      <!-- JavaScript für die Uhr und das Datum -->
-
-<script>
-    const clockElement = document.createElement('div');
-    clockElement.id = 'clock';
-    clockElement.style.fontSize = '20px';
-    clockElement.style.fontWeight = 'bold';
-
-    const dateElement = document.createElement('div');
-    dateElement.id = 'date';
-    dateElement.style.fontSize = '16px';
-
-    const clockContainer = document.getElementById("clock-container");
-    clockContainer.appendChild(clockElement);
-    clockContainer.appendChild(dateElement);
-    document.body.appendChild(clockContainer);
-
-    function updateClock() {
-        const now = new Date();
-        const options = {
-            hour: 'numeric',
-            minute: 'numeric',
-            second: 'numeric',
-            timeZone: 'Europe/Zurich', // Zeitzone für Bern
-        };
-
-        clockElement.textContent = now.toLocaleTimeString('de-DE', options);
-        dateElement.textContent = now.toLocaleDateString('de-DE');
-
-        requestAnimationFrame(updateClock);
-    }
-
-    // Uhr initialisieren und aktualisieren
-    updateClock();
-</script>
 
 <div id="section-two"> <!--Musst noch sagen was du alles anbieten kannst-->
     <h2 class="offer">This is what i have to offer</h2>
