@@ -1,6 +1,7 @@
 #Uhr {
     position: relative;
-    right: 0px; 
+    right: 20px; 
+    top : 20px;
     background: rgba(22, 248, 79, 0.7);
     color: white;
     padding: 20px;
@@ -8,5 +9,5 @@
 }
 #Uhr>a{
     display: block;
-    padding-bottom: 10px;
+    padding: 10px;
 }
