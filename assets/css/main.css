@@ -8,7 +8,6 @@ body{
     background-color: rgb(17, 57, 58);
     color: white;
     width: 100%;
-    height: 100vh;
 }
 div{
     margin: 0;
@@ -24,30 +23,7 @@ h1{
 .major{
     font-size: 30px;
 }
-/*
-header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 50;
-    display: flex;
-}*/
 
-
-/*
-#navigation {
-    position: relative;
-    left: -100px; *//* Negative Wert in Pixeln, um es nach links zu verschieben *//*
-    background: rgba(22, 203, 248, 0.7);
-    color: white;
-    padding: 20px;
-    border-radius: 0 0 5px 5px;
-}
-#navigation>a{
-    display: block;
-    padding-bottom: 10px;
-}
-*/
 /*
 #clock-container {
     position: fixed;
@@ -65,87 +41,7 @@ img{
     object-fit: cover;
 }
 
-.intro-text{
-    font-size: 20px;
-}
 
-.image1{
-    margin-left: 20px;
-    width: 800px;
-    height: 800px;
-    object-fit: cover;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 30px 5px rgb(20, 226, 226);
-}
-
-.text-container-1{
-    background-color: purple;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 20px;
-    width: 50%;
-    display: block;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 30px 5px rgb(238, 0, 255);
-    
-}
-.container-1{
-    width: 100%;
-    display: flex;
-    margin: 0 auto 20px;
-}
-
-.container-text{
-    display: flex;
-    justify-content: space-around;
-    height: 90%;
-    margin-top: 20px;
-}
-
-.text-2, .text-3{
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 5px rgb(238, 0, 255);
-
-}
-.text-2{
-    height: 500px;
-    width: 40%;
-    background-color: aqua;
-}
-.text-3{
-    height: 500px;
-    width: 40%;
-    background-color: rebeccapurple;
-}
-
-.content{
-    width: 50%;
-    max-width: 600px;
-    display: block;
-    justify-content: flex;
-    
-}
-/*
-.content{
-    background-color: rgb(216, 93, 189);
-    padding: 20px;
-    border-radius: 5px;
-    margin: 20px;
-    justify-content: flex;
-    position: right;
-}*//*
-.valentin{
-    margin: 0;
-    border-bottom: 2px solid black;
-    text-align: center;
-    margin-bottom: 10px;
-} */
-/*
-.major{
-    margin: 0;
-}*/
 
 #intro-text{
     background-color: rgb(0, 172, 172);
@@ -202,7 +98,8 @@ img{
     margin-top: 10px;
 }
 #start{
-    margin-top: 120px;
+    margin-top: 50px;
+    scroll-margin-top: 50px;
 }
 #navigation{
     background-color: rgb(0, 200, 200);
@@ -251,9 +148,8 @@ a:hover{
 
 .newcontainer-1{
     width: 100%;
-    height: 100vh;
     display: flex;
-    padding-top: 150px;
+    padding-top: 100px;
     justify-content: space-evenly;
 }
 
@@ -271,9 +167,7 @@ a:hover{
 
 .newtext-container-1{
     background-color: purple;
-    height: 80vh;
-    max-height: 800px;
-    min-height: 500px;
+    
     width: 40%;
     max-width: 800px;
     min-width: 500px;
@@ -307,11 +201,54 @@ a:hover{
 
 .newtext-2, .newtext-3{
     width: 40%;
-    height: 55vh;
     max-height: 800px;
     min-height: 300px;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0px 0px 10px 5px rgb(238, 0, 255);
     overflow: auto;
+}
+/*Alles für den Introduction sector, inkl. justify content center und gap container div für abstand*/
+/*
+#introduction{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    scroll-margin-top: 130px;
+}*/
+
+
+
+#catpic{
+    padding: 0;
+    margin: 0;
+    width: 40%;
+}
+
+/*Alles für den Introduction sector, inkl. justify content center und gap container div für abstand*/
+
+.flex-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    scroll-margin-top: 130px;
+}
+
+.inhalt-blue{
+    font-size: 20px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 0px 0px 10px 5px rgb(0, 255, 255);
+    margin: 0;
+}
+.inhalt-violett{
+    font-size: 20px;
+    width: 40%;
+    background-color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgb(238, 0, 255);
+}
+.inhalt-img{
+    height: 750px;
 }
