@@ -69,24 +69,54 @@ img{
 #welcome-header-box{
     margin-top: 10px;
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
 }
 #welcome-header-box h3{
     font-size: 60px;
     text-align: center;
+    margin-bottom: 20px;
 }
 #welcome-header-box p{
     margin-top: 5px;
+    margin-left: 20px;
     font-size: 20px;
 }
-#welcome-header-box button{
+.button-box{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-header-box a{
     padding: 20px;
     margin-top: 100px;
     border-radius: 20px;
     border: none;
-    width: 200px;
     cursor: pointer;
+    font-size: 22px;
+    background-color: rgb(18, 149, 118);
+    color: aliceblue;
+    transition: background-color 0.3s ease;
+}
+.play-link{
+    margin-top: 200px;
+}
+#welcome-header-box a:hover{
+    background-color: rgb(1, 197, 1);
 
 }
+.bblock{
+    display: block;
+    justify-content: center;
+}
+
+#Intro2{
+    
+}
+
 #intro-text{
     background-color: rgb(0, 172, 172);
     display: inline-block;
