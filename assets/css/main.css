@@ -42,19 +42,51 @@ h1{
     padding: 10px;
 }
 */
+/*
 img{
     margin-left: 20px;
     width: 800px;
     height: 800px;
     object-fit: cover;
-}
+}*/
 
 #newstart{
     margin-top: 140px;
-    height: 60vh;
+    height: 80vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(5, 141, 57);
     color: white;
+    display: flex;
 }
 
+#newstart img{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+}
+#welcome-header-box{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#welcome-header-box h3{
+    font-size: 60px;
+    text-align: center;
+}
+#welcome-header-box p{
+    margin-top: 5px;
+    font-size: 20px;
+}
+#welcome-header-box button{
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+
+}
 #intro-text{
     background-color: rgb(0, 172, 172);
     display: inline-block;
