@@ -100,6 +100,7 @@ img{
     background-color: rgb(18, 149, 118);
     color: aliceblue;
     transition: background-color 0.3s ease;
+    text-decoration: none;
 }
 .play-link{
     margin-top: 200px;
@@ -114,7 +115,78 @@ img{
 }
 
 #Intro2{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#Intro2 h3{
+    font-size: 45px;
+}
+#Intro2 p{
+    padding-top: 15px;
+}
+
+.work-exp{
+    background-color: rgb(5, 141, 57);
+
+    padding-bottom: 30px;
+}
+
+.work-exp h3{
+    font-size: 45px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.work-exp p{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.projects{
+    padding: 40px;
+}
+.projects h3{
+    font-size: 45px;
+}
+.projects li{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.sonderword{
+    font-style: italic;
+    text-decoration: underline;
+}
+#skills{
+    background-color: rgb(5, 141, 57);
     
+    padding: 30px;
+    padding-left: 40px;
+}
+#skills h3{
+    font-size: 45px;
+}
+#skills p{
+    padding-top: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+#skills li{
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.form-wrapper{
+    background-color: rgb(0, 255, 162);
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.form-wrapper input{
+    width: 40%;
 }
 
 #intro-text{
