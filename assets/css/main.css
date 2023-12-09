@@ -113,12 +113,16 @@ img{
     display: block;
     justify-content: center;
 }
+section{
+    scroll-margin-top: 100px;
 
+}
 #Intro2{
     font-size: 20px;
     padding-left: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
+
 }
 #Intro2 h3{
     font-size: 45px;
@@ -177,16 +181,47 @@ img{
 }
 
 .form-wrapper{
-    background-color: rgb(0, 255, 162);
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(5, 141, 57);
+    box-shadow: 0px 0px 30px 5px rgb(4, 250, 111);
+    border-radius: 10px;
     width: 50vw;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    margin-top: 100px;
+    font-size: 40px;
 }
-.form-wrapper input{
-    width: 40%;
+.for-now{
+    font-size: 10px;
+}
+.form-elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-elements2{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-elements2 input, textarea{
+    border: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#submit{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(2, 150, 116);
+    padding: 20px;
+    border-radius: 20px;
+}
+#submit:hover{
+    background-color: rgb(101, 255, 219);
+    transition: background-color 0.3s ease;
 }
 
 #intro-text{
@@ -411,4 +446,28 @@ a:hover{
 }
 .inhalt-img{
     height: 750px;
+}
+
+#contact-form{
+    scroll-margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#newstart{
+    scroll-margin-top: 200px;
+}
+
+#game{
+    margin-top: 400px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-iframe {
+    width: 655px;
+    height: 500px;
+    border: none;
 }
