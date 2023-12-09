@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/professional.css" />
     <link rel="stylesheet" href="assets/css/uhr.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@500&family=Whisper&display=swap" rel="stylesheet">
 </head>
 <body class="is-preload">
     <header>
+        <!--
         <div id="navigation">
             <img id="logo" src="LogoVDweiss.png" alt="Logo von Valentin Dobler">
             <nav>
@@ -25,67 +29,41 @@
                 <script src="uhr.js"></script>
             </div>
         </div>
+        -->
     </header>
-    <main>
-        <section id="newstart">
-                <img src="Bild.jpg" alt="">
-                <div id="welcome-header-box">
-                    <h3>Welcome to my Homepage</h3>
-                    <p>Wow you made it, congrats!</p>
-                    <p>My Name is Valentin Dobler, im a business informatics student in the Bern University of Applied Sciences BUAS.</p>
-                    <p>As you guessed correctly, this is my portfolio page where i will show you what I have to offer.</p>
-                    <p>Choose something below or just scroll on your own pace to see it all!</p>
-                    <div class="button-box">
-                        <div>
-                            <a href="#Intro2">Introduction</a>
-                            <a href="#work-exp">Work Experience</a>
-                            <a href="#projects">Projects</a>
-                            <a href="#skills">Skills and Technologies</a>
-                            <a href="#contact-form">Contact Form</a>
-                        </div>
-                        <div class="play-link">
-                            <a href="#game">Bored? Klick me to find something cool ;)</a>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <section id="Intro2">
-            <h3>Thats the part where I will <span class="sonderword">Introduce</span> myself</h3>
-            <p>My name is Valentin Dobler and this are some important infos about me</p>
-            <p>Age: 27</p>
-            <p>Civil status: Married</p>
-            <p>Study: Business Informatics (Bsc)</p>
-            <p>Work: 60% (August,2024)</p>
-            <p>Location: Bern-Thun</p>
-            <p>Wife: Luna Dobler </p>
-            <p>Children: 0 (for now)</p>
-            <p>Other things i Love:    Our 2 Cats, Movies, Books, Music, Food, Sleep, Games, Nature, Technology, Science, Politics, Economics, Sports, Traveling, Cooking, Friends, Family, and much more</p>
-            <p>Sports: Football, Swimming, Running, Hiking, Skiing, Snowboarding, Uni-Hockey</p>
-            <p>Favorite Food: Typical Italian Lasagne</p>
-            <p>Favorite Drink: Water, Lipton Icetea</p>
-            <p>Ao i Think thats more than enough Information about me. If you have any Questions feel free to ask me.</p>
-        </section>
-        <section id="work-exp">
-            <div class="work-exp">
-                <h3>This is my <span class="sonderword">Experience</span> that i have to offer</h3>
-                <p>3 Years apprenticeship with Bertolino Multimedia <br>with insight into installation of all sorts of hardware in all sorts of buildings (e.g. a complete new Computer Room for a school from planing to installing)</p>
-                <p>5 Years work in Fust AG <br>with insight into repairing most technical appliances such as PCs, Screens, Smartphones (Apple, Samsung, Huawei)</p>
+    <section id="start">
+        <div id="uhr">
+            <p id="timeInWords"></p>
+            <script src="uhr.js"></script>
+        </div>
+        <img id="logo" src="LogoVDweiss.png" alt="">
+        <div  id="startimg">
+            <img id="startimgimg" src="pexels-denis-linine-714256.jpg" alt="">
+            <div class="starttext">
+                <p><span class="italic notsowhite">Hello</span></p>
+                <h2><span class="italic notsowhite">My name is</span></h2>
+                <h1>Valentin Dobler</h1>
+                <a href="#introduction">LEARN MORE</a>
+                <a href="retard.html">Back to COLOR</a>
             </div>
-        </section>
-        <section id="projects">
-            <div class="projects">
-                <h3>These are my <span class="sonderword">Projects</span></h3>
-                <ul>
-                    <li>Lanwmower App</li>
-                    <li>WG Suche</li>
-                    <li>My Github Page</li>
-                </ul>
+            
+        </div>
+    </section>
+    <section id="introduction">
+       <div class="whitecontainer">
+            <div id="profile">
+                <h2>Introduction</h2>
+                <h5>Full Name:</h5>
+                <p>Valentin Dobler</p>
+                <h5>Date of Birth</h5>
+                <p>June 6th, 1996</p>
+                <h5>Job:</h5>
+                <p>Business Informatics Student</p>
+                <h5>Email</h5>
+                <p>valentin.dobler@gmx.ch</p>
             </div>
-        </section>
-        <section id="skills">
-            <div class="skills">
-                <h3>These are my <span class="sonderword">Skills</span> that i can use</h3>
-                <p>Programming Languages</p>
+            <div id="skills">
+                <h2>Skills</h2>
                 <ul>
                     <li>HTTP</li>
                     <li>CSS</li>
@@ -96,47 +74,8 @@
                     <li>R</li>
                     <li>SQL</li>
                 </ul>
-                <p>Tech Support</p>
-                <ul>
-                    <li>I KNOW WINDOWS!!!!</li>
-                    <li>Support with Smartphones</li>
-                    <ul>
-                        <li>Apple</li>
-                        <li>Samsung</li>
-                        <li>Huawei</li>
-                    </ul>
-                    <li>Repair of technical devices</li>
-                    <ul>
-                        <li>Tower PCs</li>
-                        <li>Laptops</li>
-                        <li>Macbooks</li>
-                    </ul>
-                    <li>Setting up a new Smartphone or PC to your liking</li>
-                </ul>
             </div>
-        </section>
-        <section id="contact-form">
-            <div class="form-wrapper">
-                <form action="" method="POST">
-                    <div class="form-elements">
-                        <p>Do you have questions or want to learn more?</p>
-                        <p>Contact me! Its free! <span class="for-now">For now ;)</span> </p>
-                    </div>
-                    <div class="form-elements2">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                        <label for="message" >Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Hi, I would like to know more about your problem-solving-skills..."></textarea>
-                        <input type="submit" name="" id="submit" value="Submit">
-                    </div>
-                </form>
-            </div>
-        </section>
-        <section id="game">
-            <iframe src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/main.html"  class="my-iframe"></iframe>
-            <p>Steuerung:</p>
-            <p>Pfeiltasten</p>
-        </section>
+       </div>
+    </section>
+    
 </body>
