@@ -6,8 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/uhr.css">  
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+    <script src="readmePopup.js"></script>
+
+
 </head>
 <body class="is-preload">
+    <div id="readmePopup" style="display:none;">
+        <div id="readmeContent"></div>
+        <button onclick="closeReadme()">Schließen</button>
+    </div>
     <header>
         <div id="navigation">
             <img id="logo" src="LogoVDweiss.png" alt="Logo von Valentin Dobler">
@@ -19,6 +27,8 @@
                 <a href="#projects">Projects</a>
                 <a href="#skills">Skills and Technologies</a>
                 <a href="#contact-form">Contact Form</a>
+                <a href="javascript:void(0)" onclick="showReadme()">README</a>
+                
             </nav>
             <div id="uhr">
                 <p id="timeInWords"></p>
