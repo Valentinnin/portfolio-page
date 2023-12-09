@@ -138,16 +138,24 @@ h1{
     padding: 5px;
 }
 
-
-.whitecontainer{
-    background-color: white;
-    height: 200vh;
-}
-
 #logo{
     position: absolute;
     z-index: 99;
     margin-left: 10px;
     margin-top: 10px;
     width: 100px;
+}
+
+#introduction{
+    background-color: rgb(54, 54, 54);
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 100px;
+}
+.whitecontainer{
+    margin-left: auto;
+    margin-right: auto;
 }
