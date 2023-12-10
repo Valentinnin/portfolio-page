@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
     <script src="Pfad_zu_Ihrer_JavaScript_Datei/readmePopup.js"></script>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body class="is-preload">
     <header>
@@ -34,6 +34,16 @@
             </div>
         </div>
         -->
+        <nav>
+            <div id="navleiste">
+                <a href="#start">Start</a>
+                <a href="#introduction">Introduction</a>
+                <a href="#resume">Resume</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+       
     </header>
     <section id="start">
         <div id="uhr">
@@ -54,54 +64,146 @@
         </div>
     </section>
     <section id="introduction">
-       <div class="whitecontainer">
-            <div class="containerTop">
-                <h2>Welcome to my Portfolio Page</h2>
-            </div>
-            <div class="containerBot">
-            <div id="profile">
-                <h3>Introduction</h3>
-                <h5>Full Name:</h5>
-                <p>Valentin Dobler</p>
-                <h5>Date of Birth</h5>
-                <p>June 6th, 1996</p>
-                <h5>Job:</h5>
-                <p>Business Informatics Student</p>
-                <h5>Email</h5>
-                <p>valentin.dobler@gmx.ch</p>
-            </div>
-            <div id="skills">
-                <h3>Skills</h3>
-                <p>Programming Languages</p>
-                <ul>
-                    <li>HTTP</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                    <li>PHYTHON</li>
-                    <li>FIGMA</li>
-                    <li>TYPESCRIPT</li>
-                    <li>R</li>
-                    <li>SQL</li>
-                </ul>
-                <p>Tech Support</p>
-                <ul>
-                    <li>Support with Smartphones</li>
+        <div class="textContainer">
+            <h3>Welcome</h3>
+            <p>Hello, my Name is Valentin Dobler, im a business informatics student in the Bern University of Applied Sciences BUAS. At the moment, I am studying full-time, but from the summer of 2024, I will be able to work up to 80%. (@Valentin Spezialisierung eintragen) Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt distinctio iure sint, voluptas ab dolorum impedit adipisci molestias exercitationem modi quo nemo. Molestiae odit ut consectetur dolor ea iure unde nemo similique voluptates! Omnis, est. Vitae odit consequatur ipsam repellat eius ad, hic, pariatur distinctio obcaecati molestiae praesentium rerum provident!</p>
+            <h4>These are some Important Infos about me</h4>
+            <div class="twoContainer">
+                <div class="containerLeft">
+                    <img id="profilePic" src="profilePic.jpg" alt="">
                     <ul>
-                        <li>Apple</li>
-                        <li>Samsung</li>
-                        <li>Huawei</li>
+                        <li>
+                            <strong>Full Name</strong>
+                            <p>Valentin Dobler</p>
+                        </li>
+                        <li>
+                            <strong>Age:</strong>
+                            <p>27</p>
+                        </li>
+                        <li>
+                            <strong>Date of Birth:</strong>
+                            <p>June 6th, 1996</p>
+                        </li>
+                        <li>
+                            <strong>Study</strong>
+                            <p>Business Informatics Student</p>
+                        </li>
+                        <li>
+                            <strong>Work:</strong>
+                            <p>60% (August, 2024)</p>
+                        </li>
+                        <li>   
+                            <strong>Location:</strong>
+                            <p>Bern-Thun</p>
+                        </li>
+                        <li>
+                            <strong>Civil status:</strong>
+                            <p>Married</p>
+                        </li>
                     </ul>
-                    <li>Repair of technical devices</li>
-                    <ul>
-                        <li>Tower PCs</li>
-                        <li>Laptops</li>
-                        <li>Macbooks</li>
+                </div>
+                <div class="containerRight">
+                    <strong class="fontSizeBig" style="font-size: 25px;">Skills that i can use</strong>
+                    <ul class="paddingLeft">
+                        <li class="paddingTop">
+                            <strong>Programming Lanugages</strong>
+                            <ul class="paddingLeft">
+                                <li>HTTP</li>
+                                <li>CSS</li>
+                                <li>JAVASCRIPT</li>
+                                <li>PHYTHON</li>
+                                <li>FIGMA</li>
+                                <li>TYPESCRIPT</li>
+                                <li>R</li>
+                                <li>SQL</li>
+                            </ul>
+                        </li>
+                        <li class="paddingTop">
+                            <strong>Tech Support</strong>
+                            <ul class="paddingLeft">
+                                <li class="paddingTop fontsi">
+                                    <strong>Support with Smartphones</strong>
+                                </li>
+                                    <ul class="paddingLeft">
+                                        <li>Apple</li>
+                                        <li>Samsung</li>
+                                        <li>Huawei</li>
+                                    </ul>
+                                <li class="paddingTop fontsi">
+                                    <strong>Repair of technical devices</strong>
+                                </li>
+                                    <ul class="paddingLeft">
+                                        <li>Tower PCs</li>
+                                        <li>Laptops</li>
+                                        <li>Macbooks</li>
+                                    </ul>
+                                <li>Setting up a new Smartphone or PC to your specification</li>
+                            </ul>
+                        </li>
                     </ul>
-                    <li>Setting up a new Smartphone or PC to your liking</li>
-                </ul>
+                </div>
             </div>
-            </div>
-       </div>
+        </div>
     </section>
-    
+    <section id="resume">
+        <div class="textContainer">
+            <h4>Work History</h4>
+            <div class="resumeBlock">
+                <div class="divBlock">
+                    <h4>2020 - now</h4>
+                    <h5>Bern University of Applied Sciences BUAS</h5>
+                    <p>Study as an Business Informatics Student with a specialization as @Valentin Einfügen</p>
+                </div>
+            </div>
+            <div class="resumeBlock">
+                <h4>2015 - 2020</h4>
+                <h5>Fust AG</h5>
+                <p>Employed at the Fust AG I sold electronic devices and advised customers to find the right thing for their money</p>
+            </div>
+            <div class="resumeBlock">
+                <h4>2012 - 2015</h4>
+                <h5>Bertolino Multimedia</h5>
+                <p>Employed as an Salesperson Apprentice specializing in electronics</p>
+            </div>
+        </div>
+        <div class="textContainer">
+            <h4>Education</h4>
+            <div class="divBlock">
+                <h4>2020 - now</h4>
+                <h5>Bern University of Applied Sciences BUAS</h5>
+                <p>Study as an Business Informatics Student with a specialization as @Valentin Einfügen</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="textContainer">
+            <h4>Projects that are completed or are still in progress</h4>
+            <ul>
+                <li>Lanwmower App</li>
+                <li>WG Suche</li>
+                <li>My Github Page</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+
+    </section>
+    <script>
+        let observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            document.querySelectorAll('nav a').forEach(a => {
+                a.classList.remove('highlight');
+                if (a.getAttribute('href') === '#' + entry.target.id) {
+                    a.classList.add('highlight');
+                }
+            });
+        }
+    });
+}, { threshold: 0.5 }); // threshold bestimmt, wie viel von einem Element sichtbar sein muss, um es als "intersecting" zu betrachten
+
+document.querySelectorAll('section').forEach(section => {
+    observer.observe(section);
+});
+    </script>
 </body>

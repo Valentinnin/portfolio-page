@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+
 }
 body{
     font-family: "Josefin Sans" sans-serif;
@@ -20,30 +22,31 @@ body{
     position: fixed;
     top: 0;
 }
-
+/*
 #navigation nav{
     color: white;
     margin:auto 0;
-}
-
+}*/
 a:visited{
     color: white;
 }
+/*
 nav{
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+}*/
+/*
 nav a{
     margin: 0 10px;
     padding: 10px; 
-    /*background-color: rgb(37, 166, 145);*/
+    /*background-color: rgb(37, 166, 145);*//*
     background-color: rgb(184, 184, 184);
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
-}
+}*/
 /*
 a:hover{
     background-color: aqua;
@@ -116,6 +119,7 @@ h1{
     color: rgb(171, 171, 171);
     margin-top: 20px;
     transition: background-color 0.3s ease;
+    
 
 }
 
@@ -147,15 +151,109 @@ h1{
 }
 
 #introduction{
-    background-color: rgb(54, 54, 54);
-    font-family: sans-serif;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(148, 148, 160);
     width: 100%;
-    padding-top: 100px;
 }
-.whitecontainer{
+.textContainer{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+
+}
+.textContainer h3{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.textContainer h4{
+    font-size: 40px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.containerLeft li{
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.containerLeft ul{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.paddingTop{
+    padding-top: 10px;
+}
+.paddingLeft{
+    padding-left: 20px;
+}
+.containerRight strong{
+    font-size: 20px;
+}
+
+#profilePic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 40%;
+}
+#resume{
+    height: 100vh;
+    background-color: rgb(103, 112, 126);
+    color: black;
+}
+
+.twoContainer{
+    display: flex;
+    width: 100%;
+}
+.containerLeft, .containerRight{
+    width: 50%;
+}
+.resumeBlock{
+    padding-left: 20px;
+}
+.resumeBlock h4{
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    color: rgb(48, 48, 48);
+}
+.resumeBlock h5{
+    font-size: 20px;
+}
+.resumeBlock p{
+    font-size: 20px;
+    margin-left: 5px ;
+}
+
+#projects{
+    background-color: rgb(175, 175, 189);
+    height: 80vh;
+}
+#navleiste{
+    height: 80vh;
+    width: 2px;
+    background-color: grey;
+    position: fixed;
+    top: 10%;
+    left: 20px;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#navleiste a{
+    padding-left: 3px;
+    text-decoration: none;
+    font-family: "Josefin Sans";
+    font-style: italic;
+    transition: background-color 1s ease;
+    
+}
+.highlight{
+    background-color: rgb(255, 255, 255);
+}
+
+#contact{
+    height: 100vh;
 }
