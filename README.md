@@ -1,4 +1,4 @@
-[![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/diffusers?style=social)](https://github.com/Vasu7389/react-project-ideas/stargazers)
+[![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/diffusers?style=social)](https://github.com/huggingface/diffusers/stargazers)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 # Max Mustermanns Portfolio
