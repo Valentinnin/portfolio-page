@@ -60,7 +60,9 @@ img{
     color: white;
     display: flex;
 }
-
+a:link{
+    color: white;
+}
 #newstart img{
     height: 100%;
     width: 40%;
@@ -481,7 +483,8 @@ a:hover{
     transform: translate(-50%, -50%);
     width: 80%; /* Breite des Popups */
     max-width: 600px; /* Maximale Breite */
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
     padding: 20px;
     border: 2px solid #ddd; /* Grauer Rahmen */
     border-radius: 8px; /* Abgerundete Ecken */
@@ -489,7 +492,24 @@ a:hover{
     z-index: 1000; /* Stellt sicher, dass das Popup über anderen Elementen erscheint */
     display: none; /* Anfangs nicht angezeigt */
 }
-
+#readmePopup a{
+    color: #000000;
+    background-color: white;
+}
+#readmePopup h2{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#readmePopup p{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#readmePopup h3{
+    margin-left: 40px;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
 /* Stil für den Inhalt des Popups */
 #readmeContent {
     margin-bottom: 20px; /* Abstand zum Schließen-Button */
@@ -501,7 +521,6 @@ a:hover{
     width: 100%;
     padding: 10px;
     background-color: #f44336; /* Roter Hintergrund */
-    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -510,3 +529,4 @@ a:hover{
 #readmePopup button:hover {
     background-color: #d32f2f; /* Dunklerer Rotton bei Hover */
 }
+

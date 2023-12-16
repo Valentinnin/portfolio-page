@@ -8,7 +8,16 @@ body{
     font-family: "Josefin Sans" sans-serif;
     box-sizing: border-box;
 }
+.redmelink:link{
+    color: grey;
+    transition: color 0.3s ease;
 
+}
+.redmelink:hover{
+    color: white;
+    transition: color 0.3s ease;
+
+}
 #start{
     scroll-margin-top: 50px;
 }
@@ -118,8 +127,6 @@ h1{
     color: rgb(171, 171, 171);
     margin-top: 20px;
     transition: background-color 0.3s ease;
-    
-
 }
 
 .starttext a:hover{
@@ -227,7 +234,14 @@ h1{
 
 #projects{
     background-color: rgb(175, 175, 189);
-    height: 80vh;
+    height: 60vh;
+}
+#projects ul{
+    margin-left: 30px;
+    font-size: 20px;
+}
+#projects li{
+    margin-bottom: 10px;
 }
 #navleiste{
     height: 80vh;
@@ -261,40 +275,139 @@ a:link {
 }
 
 #contact{
-    height: 100vh;
+    height: 80vh;
+    width: 100%;
     background-color: rgb(103, 112, 126);
+    padding-top: 50px;
 
 }
-.formcontainer{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.formWrapper{
+    background-color: rgb(154, 154, 154);
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 50px;
+}
+.formHeader{
+    margin: 20px auto;
+    font-size: 50px;
+}
+.formText{
+    font-size: 30px;
+    margin: 0 auto;
+}
+.formText::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+}
+.formForm{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+.inputFormWraper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 20px;
+}
+.inputFormWraper label{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.inputFormWraper input, textarea{
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 3px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+
+}
+#submit{
+    margin-top: 20px;
+    width: 20%;
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: background-color 0.3s ease;
+
+}
+#submit:hover{
+    background-color: rgb(177, 208, 235);
+    transition: background-color 0.3s ease;
 
 }
 
-.headerform{
-    margin-top: 20px;
-    font-size: 20px;
+#readmePopup {
+    position: fixed; /* Fixed Positionierung, um immer im Sichtfeld zu bleiben */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Breite des Popups */
+    max-width: 600px; /* Maximale Breite */
+    background-color: rgb(72, 72, 72);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 2px solid #ddd; /* Grauer Rahmen */
+    border-radius: 8px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+    z-index: 1000; /* Stellt sicher, dass das Popup über anderen Elementen erscheint */
+    display: none; /* Anfangs nicht angezeigt */
     font-family: sans-serif;
 }
+#readmePopup a{
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+#readmePopup h1{
+    font-size: 50px;
+    text-shadow: none;
 
-.form-elements2{
-    display: flex;
-    flex-direction: column;
+}
+#readmePopup h2{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+#readmePopup p{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#readmePopup li{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+#readmePopup h3{
+    margin-left: 40px;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 20;
+}
+/* Stil für den Inhalt des Popups */
+#readmeContent {
+    margin-bottom: 20px; /* Abstand zum Schließen-Button */
+}
+
+/* Stil für den Schließen-Button */
+#readmePopup button {
+    display: block;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.form-elements2 input, textarea{
-    font-size: 15px;
-    border-radius: 5px;
+    padding: 10px;
+    background-color: #f44336; /* Roter Hintergrund */
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.form-elements2 label{
-    margin-top: 15px;
-    margin-bottom: 5px;
+
+#readmePopup button:hover {
+    background-color: #d32f2f; /* Dunklerer Rotton bei Hover */
 }

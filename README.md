@@ -1,16 +1,7 @@
-[![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/diffusers?style=social)](https://github.com/huggingface/diffusers/stargazers)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-# Max Mustermanns Portfolio
+# Valentins Portfolio
 
 Willkommen zu meinem professionellen Portfolio auf GitHub. Hier finden Sie eine Auswahl meiner besten Arbeiten und Projekte.
-
-## Inhaltsverzeichnis
-- [Über das Portfolio](#über-das-portfolio)
-- [Verwendung des Color Mode](#verwendung-des-color-mode)
-- [Technologien und Tools](#technologien-und-tools)
-- [Lizenz](#lizenz)
-- [Kontakt](#kontakt)
 
 ## Über das Portfolio
 
@@ -32,16 +23,16 @@ Dieses Werk ist lizenziert unter der Creative Commons Attribution 4.0 Internatio
 - **Teilen** — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten
 - **Anpassen** — remixen, verändern und darauf aufbauen
 
-unter folgenden Bedingungen:
+###unter folgenden Bedingungen:###
 
 - **Namensnennung** — Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden. Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung besonders.
 
-Für weitere Details und Informationen besuchen Sie bitte [Creative Commons Attribution 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/).
+####Für weitere Details und Informationen besuchen Sie bitte [Creative Commons Attribution 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/).####
 
 
 ## Kontakt
 
-Simpel über das Portfolioper Kontaktformular.
+Simpel über das Portfolio per Kontaktformular.
 
 
 
