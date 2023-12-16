@@ -11,6 +11,7 @@ In diesem Portfolio präsentiere ich Mich und in Zukunft meine Arbeiten sowie ei
 Bitte oben rechts unter der Uhr auf README Drücken, Dann kann die Readme auch dort eingesehen werden.
 Um zwischen dem professionellen Modus und dem Color Mode zu wechseln, klicken Sie einfach auf den "Color Mode"-Schalter Mittig auf der Seite.
 Zurück zum Professionellen Modus kommt man per klick auf PROFESSIONAL BOOM in der Navigationsleiste.
+Auf der Professional seite hat es ein eigentlich aktualisierendes verzeichnis. leider aktualisiert es erst nachdem alle einmal angedrückt wurden.
 
 ## Technologien und Tools
 
