@@ -5,11 +5,12 @@ Willkommen zu meinem professionellen Portfolio auf GitHub. Hier finden Sie eine 
 
 ## Über das Portfolio
 
-In diesem Portfolio präsentiere ich eine Auswahl meiner professionellen Arbeiten sowie eine Sammlung kreativer Projekte und technischer Tweaks. Der Color Mode bietet ein interaktives Erlebnis mit Minispielen und anderen unterhaltsamen Features.
+In diesem Portfolio präsentiere ich Mich und in Zukunft meine Arbeiten sowie eine Sammlung kreativer Projekte und technischer Tweaks. Der Color Mode bietet ein interaktives Erlebnis mit Minispielen und anderen unterhaltsamen Features.
 
-## Verwendung des Color Mode
-
-Um zwischen dem professionellen Modus und dem Color Mode zu wechseln, klicken Sie einfach auf den "Color Mode"-Schalter oben rechts auf der Seite.
+## Verwendung der Seite
+Bitte oben rechts unter der Uhr auf README Drücken, Dann kann die Readme auch dort eingesehen werden.
+Um zwischen dem professionellen Modus und dem Color Mode zu wechseln, klicken Sie einfach auf den "Color Mode"-Schalter Mittig auf der Seite.
+Zurück zum Professionellen Modus kommt man per klick auf PROFESSIONAL BOOM in der Navigationsleiste.
 
 ## Technologien und Tools
 
