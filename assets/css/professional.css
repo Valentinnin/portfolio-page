@@ -171,7 +171,6 @@ h1{
 .textContainer{
     width: 50%;
     padding-top: 50px;
-    padding-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     font-family: "Montserrat", sans-serif;
@@ -179,12 +178,15 @@ h1{
 }
 .textContainer h3{
     font-size: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    
+}
+.textContainer p{
+    padding-bottom: 10px;
 }
 .textContainer h4{
     font-size: 40px;
-    padding-bottom: 15px;
-    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .containerLeft li{
     padding-bottom: 10px;
@@ -234,6 +236,7 @@ h1{
 }
 .resumeBlock h5{
     font-size: 20px;
+    padding: auto;
 }
 .resumeBlock p{
     font-size: 20px;
@@ -282,22 +285,24 @@ a:link {
     color: rgb(7, 248, 144);
 }
 
-#contact{
-    height: 80vh;
+/* #contact{
+    height: 100vh;
     width: 100%;
     background-color: rgb(103, 112, 126);
     padding-top: 50px;
-
+    
 }
 .formWrapper{
     background-color: rgb(154, 154, 154);
     border-radius: 20px;
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     padding-bottom: 50px;
+    
 }
 .formHeader{
     margin: 20px auto;
@@ -330,7 +335,6 @@ a:link {
 }
 .inputFormWraper label{
     margin-top: 20px;
-    margin-bottom: 5px;
 }
 .inputFormWraper input, textarea{
     border-radius: 3px;
@@ -352,7 +356,7 @@ a:link {
     background-color: rgb(177, 208, 235);
     transition: background-color 0.3s ease;
 
-}
+} */
 
 #readmePopup {
     position: fixed; /* Fixed Positionierung, um immer im Sichtfeld zu bleiben */
