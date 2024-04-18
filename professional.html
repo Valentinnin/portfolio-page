@@ -1,11 +1,14 @@
+
 <!DOCTYPE HTML>
 <html>
 <head>
     <title>Valentins Seite</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+ 
     <link rel="stylesheet" href="assets/css/professional.css" />
     <link rel="stylesheet" href="assets/css/uhr.css">  
+    <link rel="stylesheet" href="assets/css/contact.css">  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@500&family=Whisper&display=swap" rel="stylesheet">
@@ -45,7 +48,7 @@
                 <a href="#introduction">Introduction</a>
                 <a href="#resume">Resume</a>
                 <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <a href="#contact-form">Contact</a>
             </div>
         </nav>
        
@@ -186,7 +189,7 @@
         </div>
     </section>
     <section id="projects">
-        <div class="textContainer">
+        <div class="textContainer" >
             <h4>Projects that are completed or are still in progress</h4>
             <ul>
                 <li>WG Suche</li>
@@ -194,7 +197,7 @@
             </ul>
         </div>
     </section>
-    <section id="contact">
+    <!-- <section id="contact">
            <div class="formWrapper">
                 <p class="formHeader">
                     Wanna learn more?
@@ -212,8 +215,26 @@
                     </div>
                 </form>
            </div>
+    </section> -->
+    <section id="contact-form">
+        <div class="form-wrapper">
+            <form action="https://formsubmit.co/valentin.dobler@hotmail.com" method="POST">
+                <div class="form-elements">
+                    <p>Do you have questions or want to learn more?</p>
+                    <p>Contact me! Its free! <span class="for-now">For now ;)</span> </p>
+                </div>
+                <div class="form-elements2">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="message" >Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Hi, I would like to know more about your problem-solving-skills..."></textarea>
+                    <input type="submit" name="" id="submit" value="Submit">
+                </div>
+            </form>
+        </div>
     </section>
-
     <footer>
 
     </footer>
